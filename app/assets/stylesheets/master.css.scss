@@ -1,6 +1,17 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+  background: url('/assets/vertical_cloth.png');
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+.navbar.navbar-inverse {
+  background:url('/assets/diagmonds.png');
+  border-radius: 0;
+  box-shadow: 2px 2px 2px #000000;
+}
+
 .place {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
   -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
