@@ -24,18 +24,44 @@ body {
 }
 
 .place {
-  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
-  box-shadow: 1px 1px 2px 0 #d0d0d0;
-  background: #fff;
-  border: 1px solid #ccc;
-  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  -moz-box-shadow: 1px 1px 2px 0 #000000;
+  -webkit-box-shadow: 1px 1px 2px 0 #000000;
+  background: #e6e6e6;
+  border: 1px solid #ffffff;
   margin-top: 10px;
   margin-bottom: 15px;
   padding: 20px;
 }
 
+.admin {
+  background: #ffffff;
+}
+
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
   padding: 0;
+}
+
+.alert-coffee {
+  background: #ff9933;
+  color: #663300;
+}
+
+.btn-coffee {
+  color: #ffffff;
+  background: #cc6600;
+}
+
+.btn-coffee:hover {
+  color: #ffffff;
+  background: #ff9933;
+}
+
+.coffee-links a {
+  color: #cc6600;
+}
+
+.coffee-links a:hover {
+  color: #ff9933;
+  text-decoration: none;
 }
