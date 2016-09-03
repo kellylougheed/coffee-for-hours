@@ -16,11 +16,19 @@ body {
 }
 
 .navbar-inverse .navbar-brand {
-  color: #A86936;
+  color: #cc6600;
   font-family: 'Pacifico', georgia;
   font-size: 3em;
   letter-spacing: 0;
   text-shadow: 2px 2px #000000;
+}
+
+li#new a {
+  color: #A86936;
+}
+
+li#new a:hover {
+  color: #ffffff;
 }
 
 .place {
