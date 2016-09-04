@@ -60,6 +60,19 @@ a:hover {
   color: #ffffff;
 }
 
+.alert-danger {
+  background: #990000;
+  color: #ffffff;
+  border: #990000;
+}
+
+.field_with_errors {
+  background: #990000;
+  color: #ffffff;
+  padding: 8px;
+  border-radius: 3px;
+}
+
 .btn-brown {
   color: #ffffff;
   background: #4d2600;
