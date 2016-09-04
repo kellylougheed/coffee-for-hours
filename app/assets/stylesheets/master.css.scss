@@ -1,7 +1,7 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
 
 body {
   background: url('/assets/vertical_cloth.png');
@@ -17,8 +17,8 @@ body {
 
 .navbar-inverse .navbar-brand {
   color: #cc6600;
-  font-family: 'Pacifico', georgia;
-  font-size: 3em;
+  font-family: 'Shadows Into Light', georgia;
+  font-size: 3.5em;
   letter-spacing: 0;
   text-shadow: 2px 2px #000000;
 }
@@ -26,11 +26,16 @@ body {
 .place {
   -moz-box-shadow: 1px 1px 2px 0 #000000;
   -webkit-box-shadow: 1px 1px 2px 0 #000000;
-  background: #e6e6e6;
+  background: #ffffff;
   border: 1px solid #ffffff;
   margin-top: 10px;
   margin-bottom: 15px;
   padding: 20px;
+}
+
+.place h1 {
+  letter-spacing: 4px;
+  font-size: 2em;
 }
 
 .admin {
@@ -64,4 +69,10 @@ h1, h2, h3, h4, h5, h6 {
 .coffee-links a:hover {
   color: #ff9933;
   text-decoration: none;
+}
+
+@media (max-width: 767px) {
+.navbar-inverse .navbar-brand {
+  font-size: 2.5em;
+}
 }
