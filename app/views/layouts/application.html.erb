@@ -3,7 +3,7 @@
 <head>
   <title>Write Your Thesis</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Yelp clone made for places to write your thesis at Brown University.">
+  <meta name="description" content="Yelp clone made for places to study or write your thesis at Brown University or around Providence, RI.">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -45,10 +45,10 @@
 </nav>
 
 <% if notice.present? %>
-  <p class="alert alert-coffee"><%= notice %></p>
+  <p class="alert alert-brown"><%= notice %></p>
 <% end %>
 <% if alert.present? %>
-  <p class="alert alert-coffee"><%= alert %></p>
+  <p class="alert alert-brown"><%= alert %></p>
 <% end %>
 
 <%= yield %>

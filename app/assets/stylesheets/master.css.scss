@@ -1,26 +1,28 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
-@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(http://fonts.googleapis.com/css?family=Oswald:300);
 
 body {
-  background: url('/assets/vertical_cloth.png');
-  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
-  letter-spacing: 1px;
+  background: url('/assets/binding_dark.png');
+  font-family: 'Helvetica Neue', georgia;
+  font-weight: 200;
+  letter-spacing: 2px;
 }
 
-.navbar.navbar-inverse {
-  background:url('/assets/black_denim.png');
+.navbar {
+  background: #4d2600;
   border-radius: 0;
   box-shadow: 2px 2px 2px #000000;
 }
 
-.navbar-inverse .navbar-brand {
-  color: #cc6600;
-  font-family: 'Shadows Into Light', georgia;
+.navbar .navbar-brand {
+  color: red;
+  font-family: 'Oswald', georgia;
+  text-transform: uppercase;
+  font-weight: 300;
   font-size: 3.5em;
   letter-spacing: 0;
-  text-shadow: 2px 2px #000000;
 }
 
 .place {
@@ -38,41 +40,47 @@ body {
   font-size: 2em;
 }
 
-.admin {
-  background: #ffffff;
-}
-
 h1, h2, h3, h4, h5, h6 {
+  font-weight: 200;
   margin: 0;
   padding: 0;
 }
 
-.alert-coffee {
-  background: #ff9933;
-  color: #663300;
+a {
+  color: #000000;
 }
 
-.btn-coffee {
+a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.alert-brown {
+  background: #804000;
   color: #ffffff;
-  background: #cc6600;
 }
 
-.btn-coffee:hover {
+.btn-brown {
   color: #ffffff;
-  background: #ff9933;
+  background: #4d2600;
 }
 
-.coffee-links a {
-  color: #cc6600;
+.btn-brown:hover {
+  color: #ffffff;
+  background: #804000;
 }
 
-.coffee-links a:hover {
-  color: #ff9933;
+.brown-links a {
+  color: #4d2600;
+}
+
+.brown-links a:hover {
+  color: #804000;
   text-decoration: none;
 }
 
 @media (max-width: 767px) {
-.navbar-inverse .navbar-brand {
-  font-size: 2.5em;
-}
+  .navbar .navbar-brand {
+    font-size: 2.5em;
+  }
 }
