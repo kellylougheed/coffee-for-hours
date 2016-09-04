@@ -63,11 +63,16 @@ a:hover {
 .btn-brown {
   color: #ffffff;
   background: #4d2600;
+  letter-spacing: 2px;
 }
 
 .btn-brown:hover {
   color: #ffffff;
   background: #804000;
+}
+
+input[type="text"], textarea {
+  letter-spacing: 1px;
 }
 
 .brown-links a {
