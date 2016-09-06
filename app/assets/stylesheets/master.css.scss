@@ -127,6 +127,21 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+.flex-container div {
+  padding: 10px;
+}
+img {
+  max-width: 100%;
+}
+input#photo_picture {
+  letter-spacing: 1px;
+}
 
 @media (max-width: 767px) {
   .navbar .navbar-brand {

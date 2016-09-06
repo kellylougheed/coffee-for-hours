@@ -25,6 +25,15 @@
 </div>
 <% end %>
 
+<% if place.photos.present? %>
+<div class="clear"></div>
+<div class="flex-container">
+<div class="col-xs-6">
+    <%= image_tag place.photos.last.picture %>
+</div>
+</div>
+<% end %>
+
 </div>
 
 <% end %>
