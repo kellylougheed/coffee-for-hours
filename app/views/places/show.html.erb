@@ -41,11 +41,12 @@
     <%= link_to 'Delete', place_path(@place), method: :delete, data: {confirm: 'Are you sure you want to delete this place?'}, class: 'btn btn-brown' %>
   <% end %>
 </div>
-
+<br>
+<div>
 <h1>Comments</h1>
-
+<br>
 <% @place.comments.each do |comment| %>
-  <div>
+  <div class="col-xs-12 col-sm-6">
     <blockquote>
       <% if comment.humanized_rating.present? %>
         <b><%= comment.humanized_rating %></b> -
@@ -58,12 +59,14 @@
     </div>
 <% end %>
 
-<div class="clear"></div>
-
+<div class="pull-right">
 <!-- Button trigger modal -->
 <button class="btn btn-brown btn-lg" data-toggle="modal" data-target="#myModal">
   Add a comment
 </button>
+</div>
+
+</div>
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
