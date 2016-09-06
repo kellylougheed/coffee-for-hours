@@ -88,8 +88,12 @@ a:hover {
   background: #804000;
 }
 
-input[type="text"], textarea {
+input[type="text"], select, textarea {
   letter-spacing: 1px;
+}
+
+select {
+  width: 50%;
 }
 
 .brown-links a {
