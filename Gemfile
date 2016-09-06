@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 
+gem 'devise', '>= 3.2.4'
+
 gem 'rails_12factor', group: :production
 
 gem 'will_paginate', '~> 3.1.0'
 
 gem 'simple_form'
-
-gem 'devise', '>= 3.2.4'
 
 gem "geocoder", "1.3.4"
 
