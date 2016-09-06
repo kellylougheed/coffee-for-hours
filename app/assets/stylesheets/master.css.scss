@@ -83,6 +83,10 @@ a:hover {
   letter-spacing: 2px;
 }
 
+.btn-default {
+  letter-spacing: 2px;
+}
+
 .btn-brown:hover {
   color: #ffffff;
   background: #804000;
@@ -90,10 +94,6 @@ a:hover {
 
 input[type="text"], select, textarea {
   letter-spacing: 1px;
-}
-
-select {
-  width: 50%;
 }
 
 .brown-links a {
