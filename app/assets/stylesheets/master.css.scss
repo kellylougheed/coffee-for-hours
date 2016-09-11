@@ -14,6 +14,7 @@ body {
   background: #4d2600;
   border-radius: 0;
   box-shadow: 1px 1px 1px #000000;
+  margin-bottom: 0;
 }
 
 .navbar .navbar-brand {
@@ -23,6 +24,22 @@ body {
   font-weight: 300;
   font-size: 3.5em;
   letter-spacing: 0;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    max-height: 550px;
+    width: 100%;
+}
+
+.carousel-caption {
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: 100;
+    text-shadow: #000000 2px 2px;
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    position: absolute;
+    left: 0;
 }
 
 .place {
