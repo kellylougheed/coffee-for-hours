@@ -22,6 +22,7 @@
 <br><br>
 
 <% if @user.comments.present? %>
+
 <% @user.comments.each do |comment| %>
   <div class="col-xs-12 col-sm-6">
     <h3><%= link_to comment.place.name, place_path(comment.place) %> </h3>
@@ -33,6 +34,7 @@
     </blockquote>
   </div>
 <% end %>
+
 <% end %>
 
 <div class="clear"></div>
@@ -42,6 +44,7 @@
 <br><br>
 
 <% if @user.places.present? %>
+
 <% @user.places.each do |place| %>
 <div class="col-xs-12 col-sm-6">
   <h1><%= link_to place.name, place_path(place) %></h1><br>
@@ -61,6 +64,7 @@
   </blockquote>
 </div>
 <% end %>
+
 <% end %>
 
 </div>
