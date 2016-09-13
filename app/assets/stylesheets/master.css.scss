@@ -14,6 +14,7 @@ body {
   background: #4d2600;
   margin-bottom: 0;
   border: none;
+  z-index: 1;
 }
 
 .navbar .navbar-brand {
@@ -23,6 +24,10 @@ body {
   font-weight: 300;
   font-size: 3.5em;
   letter-spacing: 0;
+}
+
+.carousel-control {
+  z-index: 0;
 }
 
 .carousel-inner > .item > img, .carousel-inner > .item > a > img {
