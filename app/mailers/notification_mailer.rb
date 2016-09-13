@@ -5,7 +5,10 @@ class NotificationMailer < ActionMailer::Base
     @place = comment.place
     @place_owner = @place.user
 
-    mail(to: @place_owner.email,
+    if !@place_owner.nil?
+      mail(to: @place_owner.email,
       subject: "A comment has been added to #{@place.name}")
+    end
+
   end
 end
