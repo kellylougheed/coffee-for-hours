@@ -52,20 +52,6 @@
   <p><%= place.description %></p>
 </div>
 
-<% if place.comments.present? %>
-<div class="col-xs-6">
-  <blockquote>
-    <% if place.comments.last.humanized_rating.present? %>
-      <b><%= place.comments.last.humanized_rating %></b> -
-    <% end %>
-    <%= place.comments.last.message %>
-    <% ind2 = place.comments.last.user.email.index('@') %>
-    <% new_email2 = place.comments.last.user.email.slice(0, ind2) %>
-    <small><%= new_email2 %></small>
-  </blockquote>
-</div>
-<% end %>
-
 <% end %>
 
 </div>
