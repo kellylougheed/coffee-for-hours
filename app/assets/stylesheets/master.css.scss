@@ -26,6 +26,27 @@ body {
   letter-spacing: 0;
 }
 
+.navbar-inverse .navbar-toggle {
+  border: none;
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > li > a:link, .navbar-inverse .navbar-nav > li > a:visited, .navbar-inverse .navbar-nav > li > a:active {
+  color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: red;
+}
+
 .carousel-control {
   z-index: 0;
 }
