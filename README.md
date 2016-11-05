@@ -7,6 +7,8 @@ The app allows users to add places to study (or write your thesis) in Providence
 <h2>Features:</h2>
 
 <ul>
+<li> Places are paginated with the will_paginate gem.<li><br/>
+
 <li> Google Maps API shows the location of each place.</li><br/>
 
 <li> Devise manages users, security, and logins.</li><br/>
