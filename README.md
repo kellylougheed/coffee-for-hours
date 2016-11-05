@@ -1,6 +1,6 @@
 <h1>Write Your Thesis</h1>
 
-<b>This app for finding places to study was built in Ruby on Rails, HTML, CSS, Bootstrap, and JavaScript.</b>
+<b>This app was built in Ruby on Rails, HTML, CSS, Bootstrap, and JavaScript.</b>
 
 The app allows users to add places to study (or write your thesis) in Providence, Rhode Island. Users can also comment on or upload photos of places to study.
 
