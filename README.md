@@ -4,8 +4,6 @@
 
 The app allows users to add places to study (or write your thesis) in Providence, Rhode Island. Users can also comment on or upload photos of places to study.
 
-<img src="http://www.kellylougheed.com/images/projects/writeyourthesis.png"/>
-
 <h2>Features:</h2>
 
 <ul>
